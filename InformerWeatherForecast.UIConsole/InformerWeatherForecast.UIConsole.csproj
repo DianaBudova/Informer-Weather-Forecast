@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InformerWeatherForecast.APIConnector\InformerWeatherForecast.APIConnector.csproj" />
+    <ProjectReference Include="..\InformerWeatherForecast.BL\InformerWeatherForecast.BL.csproj" />
+    <ProjectReference Include="..\InformerWeatherForecast.DAL\InformerWeatherForecast.DAL.csproj" />
+    <ProjectReference Include="..\InformerWeatherForecast.Repositories\InformerWeatherForecast.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
